@@ -5,8 +5,8 @@ This Image processor Plugin Library creates a junction between Smarter AI Device
 1. Complete the stub functions in Processor.cpp.
 2. Compile your libimageprocessor.so.
 3. Pack your libimageprocessor.so with the AI model and compress the package(.tar).
-4. Upload the compressed AI model package to the AnyConnect dashboard and create an AI model entry.
-5. Create AI container using the AI model entry and deploy it to the Smarter AI devices.
+4. Upload the compressed AI model package to the AnyConnect Dashboard and create an AI model entry.
+5. Create an AI Container using the AI model entry and deploy it to the Smarter AI devices.
 
 
 # What’s Included
