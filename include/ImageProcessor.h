@@ -58,7 +58,7 @@ public:
   ///
   virtual void setProcessedDataReceiveCallback(ProcessedDataReceiveHandler handler) = 0;
 
-  ~ImageProcessor()
+  virtual ~ImageProcessor()
   {
     ;
   }
