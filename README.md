@@ -25,6 +25,7 @@ This Image processor Plugin Library creates a junction between Smarter AI Device
 
 ### Software packages:
 - Linux
+- cmake 3.1
 - dl library
 - pthreads library 
 - gcc/g++ version 7.x or higher
