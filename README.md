@@ -1,4 +1,4 @@
-This Image processor Plugin Library creates a junction between Smarter AI Camera Platform Library and your AI models' preprocessed input image.
+This Image processor Plugin Library creates a junction between Smarter AI Device Platform Library and your AI models' preprocessed input image.
 
 # Procedure
 
