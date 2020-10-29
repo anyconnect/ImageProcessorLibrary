@@ -13,14 +13,14 @@ Processor::~Processor()
   // Write your de-initialization code.
 }
 
-void Processor::pushDataForProcessing(DataType dataType, uint64_t timeStamp, unsigned char* data, int length)
+void Processor::pushDataForProcessing(DataType dataType, uint64_t timeStamp, int width, int height, unsigned char* data, int length)
 {
   // Process the image data
   
   // Execute the callback to return the processed data.
   if(this->handler)
   {
-    this->handler(dataType, timeStamp, data, length);
+    this->handler(dataType, timeStamp, width, height, data, length);
   }  
 }
 

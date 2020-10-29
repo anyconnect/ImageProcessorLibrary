@@ -39,7 +39,7 @@ bool Test::isLoaded()
 
 void Test::setProcessedDataCallback() 
 {
-  instance->setProcessedDataReceiveCallback([this](DataType dataType, uint64_t timestamp, unsigned char* data, int &length) {
+  instance->setProcessedDataReceiveCallback([this](DataType dataType, uint64_t timestamp, int width, int height, unsigned char* data, int &length) {
     if(dataType == DataType::YUV_I420P) {
       std::cout<<"Received with timestamp: "<< timestamp <<" and processed data length: "<<length<<std::endl;
     }

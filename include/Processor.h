@@ -13,7 +13,7 @@ public:
 
   virtual ~Processor();
 
-  void pushDataForProcessing(DataType dataType, uint64_t timeStamp, unsigned char* data, int length);
+  void pushDataForProcessing(DataType dataType, uint64_t timeStamp, int width, int height, unsigned char* data, int length);
 
   void setProcessedDataReceiveCallback(ProcessedDataReceiveHandler handler);
   
